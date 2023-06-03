@@ -1,0 +1,585 @@
+# Night Theme Switcher
+# Copyright (C) 2019, 2020 Romain Vigier
+# This file is distributed under the same license as the Night Theme Switcher package.
+# Romain Vigier <>, 2019, 2020.
+# Veli Tasalı <me@velitasali.com>, 2021.
+# Romain Vigier <romain@romainvigier.fr>, 2021.
+# Veli Tasalı <veli.tasali@gmail.com>, 2021.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2022.
+# Oğuz Ersen <oguz@ersen.moe>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Night Theme Switcher 43\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-30 14:37+0100\n"
+"PO-Revision-Date: 2022-10-30 17:21+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=0;\n"
+"X-Generator: Weblate 4.14.2-dev\n"
+
+#: src/data/ui/BackgroundButton.ui:8
+msgid "Change background"
+msgstr "Arka planı değiştir"
+
+#: src/data/ui/BackgroundButton.ui:24
+msgid "Select your background image"
+msgstr "Arka plan görüntünüzü seçin"
+
+#: src/data/ui/BackgroundsPage.ui:9
+msgid "Backgrounds"
+msgstr "Arka planlar"
+
+#: src/data/ui/BackgroundsPage.ui:13
+msgid ""
+"Background switching is handled by the Shell, these settings allow you to "
+"change the images it uses."
+msgstr ""
+"Arka plan değiştirme işlemi kabuk tarafından gerçekleştirilir, bu ayarlar "
+"kabuğun kullandığı görüntüleri değiştirmenize olanak tanır."
+
+#: src/data/ui/BackgroundsPage.ui:16
+msgid "Day background"
+msgstr "Gündüz arka planı"
+
+#: src/data/ui/BackgroundsPage.ui:29
+msgid "Night background"
+msgstr "Gece arka planı"
+
+#: src/data/ui/ClearableEntry.ui:10 src/data/ui/ShortcutButton.ui:43
+msgid "Clear"
+msgstr "Temizle"
+
+#: src/data/ui/CommandsPage.ui:9
+msgid "Commands"
+msgstr "Komutlar"
+
+#: src/data/ui/CommandsPage.ui:13
+msgid "Run commands"
+msgstr "Komutlar yürüt"
+
+#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:27
+msgid "Sunrise"
+msgstr "Gün doğumu"
+
+#. Don't translate the `notify-send` command.
+#: src/data/ui/CommandsPage.ui:25
+msgid "notify-send \"Hello sunshine!\""
+msgstr "notify-send \"Merhaba gün ışığı!\""
+
+#: src/data/ui/CommandsPage.ui:35 src/data/ui/SchedulePage.ui:40
+msgid "Sunset"
+msgstr "Gün batımı"
+
+#. Don't translate the `notify-send` command.
+#: src/data/ui/CommandsPage.ui:39
+msgid "notify-send \"Hello moonshine!\""
+msgstr "notify-send \"Merhaba ay ışığı!\""
+
+#: src/data/ui/ContributePage.ui:9
+msgid "Contribute"
+msgstr "Katkıda Bulun"
+
+#: src/data/ui/ContributePage.ui:55
+msgid "View the code and report issues"
+msgstr "Kodları görüntüleyin ve sorunları bildirin"
+
+#: src/data/ui/ContributePage.ui:68
+msgid "Contribute to the translation"
+msgstr "Çevirilere katkıda bulunun"
+
+#: src/data/ui/ContributePage.ui:81
+msgid "Support me with a donation"
+msgstr "Bağış yaparak beni destekleyin"
+
+#: src/data/ui/SchedulePage.ui:9
+msgid "Schedule"
+msgstr "Kur"
+
+#: src/data/ui/SchedulePage.ui:13
+msgid ""
+"Your location will be used to calculate the current sunrise and sunset "
+"times. If you prefer, you can set a manual schedule. It will also be used "
+"when your location is unavailable."
+msgstr ""
+"Konumunuz geçerli gün doğumu ve gün batımı saatlerini hesaplamak için "
+"kullanılacaktır. İsterseniz elle zamanlama ayarlayabilirsiniz. Konumunuz "
+"kullanılamadığında da kullanılacaktır."
+
+#: src/data/ui/SchedulePage.ui:16
+msgid "Manual schedule"
+msgstr "Elle kur"
+
+#: src/data/ui/SchedulePage.ui:57
+msgid "Keyboard shortcut"
+msgstr "Klavye kısayolu"
+
+#: src/data/ui/ShortcutButton.ui:15
+msgid "Choose…"
+msgstr "Seç…"
+
+#: src/data/ui/ShortcutButton.ui:32
+msgid "Change keyboard shortcut"
+msgstr "Klavye kısayolunu değiştir"
+
+#: src/data/ui/ShortcutButton.ui:78
+msgid "Press your keyboard shortcut…"
+msgstr "Klavye kısayolunu tuşlayın…"
+
+#: src/data/ui/ThemesPage.ui:9
+msgid "Themes"
+msgstr "Temalar"
+
+#: src/data/ui/ThemesPage.ui:15
+msgid ""
+"GNOME has a built-in dark mode that the extension uses. Manually switching "
+"themes is discouraged and is only here for legacy reasons."
+msgstr ""
+"GNOME, eklentinin kullandığı yerleşik bir koyu moda sahiptir. Temaların elle "
+"değiştirilmesi önerilmez ve yalnızca eskiye dönük uyumluluk için vardır."
+
+#: src/data/ui/ThemesPage.ui:30
+msgid "Switch GTK theme"
+msgstr "GTK temasını değiştir"
+
+#: src/data/ui/ThemesPage.ui:31
+msgid ""
+"Forcing a dark theme on applications not designed to support it can have "
+"undesirable side-effects such as unreadable text or invisible icons."
+msgstr ""
+"Onu destekleyecek şekilde tasarlanmamış uygulamalarda koyu bir temayı "
+"zorlamak, okunamayan metin veya görünmez simgeler gibi istenmeyen yan "
+"etkilere neden olabilir."
+
+#: src/data/ui/ThemesPage.ui:35 src/data/ui/ThemesPage.ui:51
+#: src/data/ui/ThemesPage.ui:67 src/data/ui/ThemesPage.ui:83
+msgid "Day variant"
+msgstr "Gündüz karşılığı"
+
+#: src/data/ui/ThemesPage.ui:40 src/data/ui/ThemesPage.ui:56
+#: src/data/ui/ThemesPage.ui:72 src/data/ui/ThemesPage.ui:88
+msgid "Night variant"
+msgstr "Gece karşılığı"
+
+#: src/data/ui/ThemesPage.ui:47
+msgid "Switch Shell theme"
+msgstr "Kabuk temasını değiştir"
+
+#: src/data/ui/ThemesPage.ui:63
+msgid "Switch icon theme"
+msgstr "Simge temasını değiştir"
+
+#: src/data/ui/ThemesPage.ui:79
+msgid "Switch cursor theme"
+msgstr "İmleç temasını değiştir"
+
+#. Time separator (eg. 08:27)
+#: src/data/ui/TimeChooser.ui:23
+msgid ":"
+msgstr ":"
+
+#: src/modules/Timer.js:268
+msgid "Unknown Location"
+msgstr "Bilinmeyen Konum"
+
+#: src/modules/Timer.js:269
+msgid "A manual schedule will be used to switch the dark mode."
+msgstr "Koyu modu değiştirmek için elle zamanlama kullanılacaktır."
+
+#: src/modules/Timer.js:274
+msgid "Edit Manual Schedule"
+msgstr "Elle Zamanlamayı Düzenle"
+
+#: src/modules/Timer.js:278
+msgid "Open Location Settings"
+msgstr "Konum Ayarlarını Aç"
+
+#: src/preferences/BackgroundButton.js:86
+msgid "This image format is not supported."
+msgstr "Bu görüntü biçimi desteklenmiyor."
+
+#: src/preferences/ContributePage.js:16
+#, javascript-format
+msgid "Version %d"
+msgstr "Sürüm %d"
+
+#: src/preferences/ThemesPage.js:50
+msgid "Default"
+msgstr "Öntanımlı"
+
+#~ msgid ""
+#~ "Only JPEG, PNG, TIFF, SVG and XML files can be set as background image."
+#~ msgstr ""
+#~ "Yalnızca JPEG, PNG, TIFF, SVG ve XML dosyaları arka plan görüntüsü olarak "
+#~ "ayarlanabilir."
+
+#~ msgid "Settings version"
+#~ msgstr "Ayarlar sürümü"
+
+#~ msgid "The current extension settings version"
+#~ msgstr "Bu eklentinin şu anki ayarlar sürümü"
+
+#~ msgid "Enable GTK variants switching"
+#~ msgstr "GTK karşılıklarına geçişi etkinleştir"
+
+#~ msgid "Day GTK theme"
+#~ msgstr "GTK gündüz teması"
+
+#~ msgid "The GTK theme to use during daytime"
+#~ msgstr "Gündüz kullanılacak GTK teması"
+
+#~ msgid "Night GTK theme"
+#~ msgstr "GTK gece teması"
+
+#~ msgid "The GTK theme to use during nighttime"
+#~ msgstr "Gece kullanılacak GTK teması"
+
+#~ msgid "Enable shell variants switching"
+#~ msgstr "Kabuk karşılıklarına geçişi etkinleştir"
+
+#~ msgid "Day shell theme"
+#~ msgstr "Kabuk gündüz teması"
+
+#~ msgid "The shell theme to use during daytime"
+#~ msgstr "Gündüz kullanılacak kabuk teması"
+
+#~ msgid "Night shell theme"
+#~ msgstr "Kabuk gece teması"
+
+#~ msgid "The shell theme to use during nighttime"
+#~ msgstr "Gece kullanılacak kabuk teması"
+
+#~ msgid "Enable icon variants switching"
+#~ msgstr "Simge karşılıklarına geçişi etkinleştir"
+
+#~ msgid "Day icon theme"
+#~ msgstr "İkon gündüz teması"
+
+#~ msgid "The icon theme to use during daytime"
+#~ msgstr "Gündüz kullanılacak simge teması"
+
+#~ msgid "Night icon theme"
+#~ msgstr "Simge gece teması"
+
+#~ msgid "The icon theme to use during nighttime"
+#~ msgstr "Gece kullanılacak simge teması"
+
+#~ msgid "Enable cursor variants switching"
+#~ msgstr "İmleç karşılıklarına geçişi etkinleştir"
+
+#~ msgid "Day cursor theme"
+#~ msgstr "İmleç gündüz teması"
+
+#~ msgid "The cursor theme to use during daytime"
+#~ msgstr "Gündüz kullanılacak imleç teması"
+
+#~ msgid "Night cursor theme"
+#~ msgstr "İmleç gece teması"
+
+#~ msgid "The cursor theme to use during nighttime"
+#~ msgstr "Gece kullanılacak imleç teması"
+
+#~ msgid "Enable commands"
+#~ msgstr "Komutları etkinleştir"
+
+#~ msgid "Commands will be spawned on time change"
+#~ msgstr "Komutlar gün saati değişiminde yürütülecek"
+
+#~ msgid "Sunrise command"
+#~ msgstr "Gün doğumu komutu"
+
+#~ msgid "The command to spawn at sunrise"
+#~ msgstr "Gündüz olunca yürütülecek komut"
+
+#~ msgid "Sunset command"
+#~ msgstr "Gün batımı komutu"
+
+#~ msgid "The command to spawn at sunset"
+#~ msgstr "Akşam olduğunda yürütülecek komut"
+
+#~ msgid "Path to the day background"
+#~ msgstr "Gündüz arka planı dosya yolu"
+
+#~ msgid "Path to the night background"
+#~ msgstr "Gece arka planı dosya yolu"
+
+#~ msgid "Time source"
+#~ msgstr "Zaman kaynağı"
+
+#~ msgid "The source used to check current time"
+#~ msgstr "Zamanı kontrol etmek için kullanılacak kaynak"
+
+#~ msgid "Follow Night Light \"Disable until tomorrow\""
+#~ msgstr "Gece Işığının \"Yarına kadar devre dışı bırak\" ayarını takip et"
+
+#~ msgid "Switch back to day time when Night Light is temporarily disabled"
+#~ msgstr "Gece Işığı devre dışı olunca gündüz zamanı ayarlarına geri dön"
+
+#~ msgid "Always enable the on-demand timer"
+#~ msgstr "İsteğe bağlı zamanlayıcı her zaman etkinleştir"
+
+#~ msgid "The on-demand timer will always be enabled alongside other timers"
+#~ msgstr ""
+#~ "İsteğe bağlı zamanlayıcı diğer zamanlayıcılarla beraber her zaman etkin "
+#~ "olacak"
+
+#~ msgid "On-demand time"
+#~ msgstr "İsteğe bağlı zaman"
+
+#~ msgid "The current time used in on-demand mode"
+#~ msgstr "İsteğe bağlı modunda kullanıcak şu anki zaman"
+
+#~ msgid "Key combination to toggle time"
+#~ msgstr "Zamanlar arası geçiş için kullanılacak tuş kısayolu"
+
+#~ msgid "The key combination that will toggle time in on-demand mode"
+#~ msgstr "İsteğe bağlı modu geçişinde kullanılacak tuş kısayolu"
+
+#~ msgid "On-demand button placement"
+#~ msgstr "İsteğe bağlı tuşu konumu"
+
+#~ msgid "Where the on-demand button will be placed"
+#~ msgstr "İsteğe bağlı tuşunun konumlandırılacağı yer"
+
+#~ msgid "Use manual time source"
+#~ msgstr "Elle girilmiş zaman kaynağını kullan"
+
+#~ msgid "Disable automatic time source detection"
+#~ msgstr "Otomatik zaman kaynağı tespitini devre dışı bırak"
+
+#~ msgid "Sunrise time"
+#~ msgstr "Gün doğumu saati"
+
+#~ msgid "When the day starts"
+#~ msgstr "Gün başlangıcı saati"
+
+#~ msgid "Sunset time"
+#~ msgstr "Gün batımı saati"
+
+#~ msgid "When the day ends"
+#~ msgstr "Gün sona erdiği an"
+
+#~ msgid "Transition"
+#~ msgstr "Geçiş"
+
+#~ msgid "Use a transition when changing the color scheme"
+#~ msgstr "Renk düzenini değiştirirken bir geçiş kullan"
+
+#~ msgid "Manual time source"
+#~ msgstr "Elle zaman kaynağı"
+
+#~ msgid ""
+#~ "The extension will try to use Night Light or Location Services to "
+#~ "automatically set your current sunrise and sunset times if they are "
+#~ "enabled. If you prefer, you can manually choose a time source."
+#~ msgstr ""
+#~ "Eklenti, Gece Işığı veya Konum Servisleri'ni kullanarak gün doğumu ve "
+#~ "batımı saatlerini tespit etmeye çalışacaktır. İsterseniz elle de zaman "
+#~ "kaynağını belirtebilirsiniz."
+
+#~ msgid "Always show on-demand controls"
+#~ msgstr "İsteğe bağlı yönetimini her zaman göster"
+
+#~ msgid "Allows you to override the current time when using a schedule."
+#~ msgstr "Şu anki kurulmuş zamanı geçersiz kılmanızı sağlar."
+
+#~ msgid "Advanced"
+#~ msgstr "Gelişmiş"
+
+#~ msgid "Smooth transition between day and night appearance."
+#~ msgstr "Gündüz ve gece görünümü arasında yumuşak geçiş."
+
+#~ msgid "Night Light"
+#~ msgstr "Gece Işığı"
+
+#~ msgid "These settings only apply when Night Light is the time source."
+#~ msgstr "Bu ayarlar yalnızca zaman kaynağı Gece Işığı olduğunda geçerlidir."
+
+#~ msgid "Follow <i>Disable until tomorrow</i>"
+#~ msgstr "<i>Yarına kadar devre dışı bırak</i> ayarını takip et"
+
+#~ msgid ""
+#~ "When Night Light is temporarily disabled, the extension will switch to "
+#~ "day variants."
+#~ msgstr ""
+#~ "Gece Işığı geçici süreliğine devre dışı bırakılınca gündüz karşılıklarına "
+#~ "geçiş yapılır."
+
+#~ msgid ""
+#~ "These settings only apply when using the manual schedule as the time "
+#~ "source."
+#~ msgstr ""
+#~ "Bu ayarlar yalnızca zaman kaynağı olarak elle kurma kullanıldığında "
+#~ "geçerlidir."
+
+#~ msgid "On-demand"
+#~ msgstr "İsteğe bağlı"
+
+#~ msgid "These settings only apply when using the on-demand time source."
+#~ msgstr ""
+#~ "Bu ayarlar yalnızca isteğe bağlı zaman kaynağı kullanıldığında geçerlidir."
+
+#~ msgid "Turn Night Mode Off"
+#~ msgstr "Gece Modunu Kapat"
+
+#~ msgid "Turn Night Mode On"
+#~ msgstr "Gece Modunu Aç"
+
+#~ msgid "Night Mode Off"
+#~ msgstr "Gece Modu Kapalı"
+
+#~ msgid "Night Mode On"
+#~ msgstr "Gece Modu Açık"
+
+#~ msgid "Turn Off"
+#~ msgstr "Kapat"
+
+#~ msgid "Turn On"
+#~ msgstr "Aç"
+
+#~ msgid "Location Services"
+#~ msgstr "Konum Servisleri"
+
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgid "Top bar"
+#~ msgstr "Üst çubuk"
+
+#~ msgid "System menu"
+#~ msgstr "Sistem menüsü"
+
+#~ msgid "Switch GTK variants"
+#~ msgstr "GTK karşılıklarına geçiş"
+
+#~ msgid "Switch shell variants"
+#~ msgstr "Shell karşılıklarına geçiş"
+
+#~ msgid "Switch icon variants"
+#~ msgstr "İkon karşılıklarına geçiş"
+
+#~ msgid "Switch cursor variants"
+#~ msgstr "İmleç karşılıklarına geçiş"
+
+#~ msgid "GTK theme"
+#~ msgstr "GTK teması"
+
+#~ msgid "Shell theme"
+#~ msgstr "Shell teması"
+
+#~ msgid "Icon theme"
+#~ msgstr "İkon teması"
+
+#~ msgid "Cursor theme"
+#~ msgstr "İmleç teması"
+
+#~ msgid "Manual schedule times"
+#~ msgstr "Elle kurum zamanları"
+
+#~ msgid "Enable backgrounds"
+#~ msgstr "Arkaplanları etkinleştir"
+
+#~ msgid "Background will be changed on time change"
+#~ msgstr "Arkaplan, gün zamanı değişiminde değiştirilecek"
+
+#, javascript-format
+#~ msgid ""
+#~ "Unable to automatically detect the day and night variants for the \"%s\" "
+#~ "GTK theme. Please manually choose them in the extension's preferences."
+#~ msgstr ""
+#~ "\"%s\" GTK temasının gündüz ve gece karşılıkları bilinmiyor. Lütfen bu "
+#~ "eklentinin ayarlar sekmesi üzerinden elle belirleyin."
+
+#, javascript-format
+#~ msgid ""
+#~ "Unable to automatically detect the day and night variants for the \"%s\" "
+#~ "GNOME Shell theme. Please manually choose them in the extension's "
+#~ "preferences."
+#~ msgstr ""
+#~ "\"%s\" GNOME Shell temasının gündüz ve gece karşılıkları bilinmiyor. "
+#~ "Lütfen bu eklentinin ayarlar sekmesi üzerinden elle belirleyin."
+
+#~ msgid "Switch to night theme"
+#~ msgstr "Gece temasına geç"
+
+#~ msgid "Switch to day theme"
+#~ msgstr "Gündüz temasına geç"
+
+#~ msgid "Use manual GTK variants"
+#~ msgstr "Elle girilmiş GTK karşılıklarını kullan"
+
+#~ msgid "Disable automatic GTK theme variants detection"
+#~ msgstr "Otomatik GTK tema karşılıkları tespitini devre dışı bırak"
+
+#~ msgid "Use manual shell variants"
+#~ msgstr "Elle girilmiş shell karşılıklarını kullan"
+
+#~ msgid "Disable automatic shell theme variants detection"
+#~ msgstr "Otomatik shell teması karşılıkları tespitini devre dışı bırak"
+
+#~ msgid "Switch backgrounds"
+#~ msgstr "Arkaplanlar arası geçiş"
+
+#~ msgid "Switch cursor theme variants"
+#~ msgstr "İmleç tema karşılıklarını değiştir"
+
+#~ msgid "Manual variants"
+#~ msgstr "Elle belirlenmiş karşılıklar"
+
+#~ msgid ""
+#~ "You can manually set variants if the extension cannot automatically "
+#~ "detect the day and night variants of your GTK theme. Please <a href="
+#~ "\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/"
+#~ "issues\">submit a request</a> to get your theme supported."
+#~ msgstr ""
+#~ "Eğer bu eklenti kullandığınız GTK temasını algılayamıyorsa, temanın "
+#~ "karşılığını elle girebilirsiniz. Temanın desteklenmesini sağlamak için "
+#~ "ayrıca <a href=\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-"
+#~ "extension/-/issues\">istekte bulunabilirsiniz</a>."
+
+#~ msgid "Support us"
+#~ msgstr "Bizi destekleyin"
+
+#~ msgid "View code on GitLab"
+#~ msgstr "Kodu GitLab üzerinde görüntüle"
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "Weblate ile yerelleştirin"
+
+#~ msgid "Donate on Liberapay"
+#~ msgstr "Liberapay ile bağış yapın"
+
+#~ msgid "Appearance"
+#~ msgstr "Görünüm"
+
+#~ msgid ""
+#~ "You can manually set variants if the extension cannot automatically "
+#~ "detect the day and night variants of your GNOME Shell theme. Please <a "
+#~ "href=\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-"
+#~ "extension/-/issues\">submit a request</a> to get your theme supported."
+#~ msgstr ""
+#~ "Eğer bu eklenti shell temanızın karşılıklarını tespit edemiyorsa, temanın "
+#~ "karşılığını elle girebilirsiniz. Temanın desteklenmesini sağlamak için "
+#~ "ayrıca <a href=\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-"
+#~ "extension/-/issues\">istekte bulunabilirsiniz</a>."
+
+#~ msgid ""
+#~ "<small>You can set custom commands that will be run when the time of the "
+#~ "day changes.</small>"
+#~ msgstr ""
+#~ "<small>Gün saati değişince yürütülecek komutlar ayarlayabilirsiniz.</"
+#~ "small>"
+
+#~ msgid "Variants"
+#~ msgstr "Karşılıklar"
+
+#~ msgid "Cancel"
+#~ msgstr "İptal et"
+
+#~ msgid "Automatic time source"
+#~ msgstr "Otomatik zaman kaynağı"

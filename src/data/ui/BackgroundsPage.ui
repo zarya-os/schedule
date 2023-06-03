@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2021, 2022 Romain Vigier <contact AT romainvigier.fr>
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<interface domain="nightthemeswitcher@romainvigier.fr">
+  <template class="BackgroundsPage" parent="AdwPreferencesPage">
+    <property name="name">backgrounds</property>
+    <property name="title" translatable="yes">Backgrounds</property>
+    <property name="icon-name">nightthemeswitcher-backgrounds-symbolic</property>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="description" translatable="yes">Background switching is handled by the Shell, these settings allow you to change the images it uses.</property>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Day background</property>
+            <property name="activatable-widget">day_button</property>
+            <child>
+              <object class="BackgroundButton" id="day_button">
+                <property name="margin-top">12</property>
+                <property name="margin-bottom">12</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Night background</property>
+            <property name="activatable-widget">night_button</property>
+            <child>
+              <object class="BackgroundButton" id="night_button">
+                <property name="margin-top">12</property>
+                <property name="margin-bottom">12</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

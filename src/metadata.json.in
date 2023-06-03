@@ -1,0 +1,12 @@
+{
+	"name": "schedule",
+	"description": "Fork of Night Theme Switcher GNOME Shell extension with zarya-session defaults.",
+	"uuid": "@UUID@",
+	"gettext-domain": "@UUID@",
+	"settings-schema": "@DNS@",
+	"url": "https://github.com/zarya-os/schedule",
+	"session-modes": ["unlock-dialog", "user"],
+	"shell-version": ["44"],
+	"version": @VERSION@,
+	"build-type": "@BUILD_TYPE@"
+}

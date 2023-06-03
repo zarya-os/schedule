@@ -1,0 +1,567 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Night Theme Switcher package.
+# Omar TS <omats@vivaldi.net>, 2021.
+# Omar TS <omats@criptext.com>, 2021.
+# Romain Vigier <romain@romainvigier.fr>, 2022.
+# Omar TS <ots@duck.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Night Theme Switcher\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-30 14:37+0100\n"
+"PO-Revision-Date: 2022-12-26 17:23+0000\n"
+"Last-Translator: Omar TS <ots@duck.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/ar/>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
+
+#: src/data/ui/BackgroundButton.ui:8
+msgid "Change background"
+msgstr "غيّر الخلفية"
+
+#: src/data/ui/BackgroundButton.ui:24
+msgid "Select your background image"
+msgstr "حدد صورة الخلفية الخاصة بك"
+
+#: src/data/ui/BackgroundsPage.ui:9
+msgid "Backgrounds"
+msgstr "خلفيات"
+
+#: src/data/ui/BackgroundsPage.ui:13
+msgid ""
+"Background switching is handled by the Shell, these settings allow you to "
+"change the images it uses."
+msgstr ""
+"تتم معالجة تبديل الخلفية بواسطة الصدفة، تتيح لك هذه الإعدادات تغيير الصور "
+"التي تستخدمها."
+
+#: src/data/ui/BackgroundsPage.ui:16
+msgid "Day background"
+msgstr "خلفية النهار"
+
+#: src/data/ui/BackgroundsPage.ui:29
+msgid "Night background"
+msgstr "خلفية الليل"
+
+#: src/data/ui/ClearableEntry.ui:10 src/data/ui/ShortcutButton.ui:43
+msgid "Clear"
+msgstr "امسح"
+
+#: src/data/ui/CommandsPage.ui:9
+msgid "Commands"
+msgstr "أوامر"
+
+#: src/data/ui/CommandsPage.ui:13
+msgid "Run commands"
+msgstr "قم بتشغيل الأوامر"
+
+#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:27
+msgid "Sunrise"
+msgstr "شروق الشمس"
+
+#. Don't translate the `notify-send` command.
+#: src/data/ui/CommandsPage.ui:25
+msgid "notify-send \"Hello sunshine!\""
+msgstr "أخطر وأرسل \"أهلا بشروق الشمس!\""
+
+#: src/data/ui/CommandsPage.ui:35 src/data/ui/SchedulePage.ui:40
+msgid "Sunset"
+msgstr "غروب الشمس"
+
+#. Don't translate the `notify-send` command.
+#: src/data/ui/CommandsPage.ui:39
+msgid "notify-send \"Hello moonshine!\""
+msgstr "أخطر وأرسل \"أهلا بطلوع القمر!\""
+
+#: src/data/ui/ContributePage.ui:9
+msgid "Contribute"
+msgstr "مساهمة"
+
+#: src/data/ui/ContributePage.ui:55
+msgid "View the code and report issues"
+msgstr "عرض الكود البرمجي والإبلاغ عن الأخطاء"
+
+#: src/data/ui/ContributePage.ui:68
+msgid "Contribute to the translation"
+msgstr "ساهم في الترجمة"
+
+#: src/data/ui/ContributePage.ui:81
+msgid "Support me with a donation"
+msgstr "ادعمني بالتبرع"
+
+#: src/data/ui/SchedulePage.ui:9
+msgid "Schedule"
+msgstr "جدولة"
+
+#: src/data/ui/SchedulePage.ui:13
+msgid ""
+"Your location will be used to calculate the current sunrise and sunset "
+"times. If you prefer, you can set a manual schedule. It will also be used "
+"when your location is unavailable."
+msgstr ""
+"سيتم استخدام موقعك لحساب أوقات شروق وغروب الشمس الحالية. إذا كنت تفضل ذلك، "
+"يمكنك تعيين جدول يدوي. سيتم استخدامه أيضًا عندما يكون موقعك غير متاح."
+
+#: src/data/ui/SchedulePage.ui:16
+msgid "Manual schedule"
+msgstr "الجدولة اليدوية"
+
+#: src/data/ui/SchedulePage.ui:57
+msgid "Keyboard shortcut"
+msgstr "اختصار لوحة المفاتيح"
+
+#: src/data/ui/ShortcutButton.ui:15
+msgid "Choose…"
+msgstr "اختر…"
+
+#: src/data/ui/ShortcutButton.ui:32
+msgid "Change keyboard shortcut"
+msgstr "تغيير اختصار لوحة المفاتيح"
+
+#: src/data/ui/ShortcutButton.ui:78
+msgid "Press your keyboard shortcut…"
+msgstr "اضغط على اختصار لوحة المفاتيح …"
+
+#: src/data/ui/ThemesPage.ui:9
+msgid "Themes"
+msgstr "سمات"
+
+#: src/data/ui/ThemesPage.ui:15
+msgid ""
+"GNOME has a built-in dark mode that the extension uses. Manually switching "
+"themes is discouraged and is only here for legacy reasons."
+msgstr ""
+"يحتوي جنوم على وضع مظلم مدمج يستخدمه الامتداد. لا يُنصح بتبديل السمات يدويًا "
+"وهو موجود هنا فقط لأسباب قديمة."
+
+#: src/data/ui/ThemesPage.ui:30
+msgid "Switch GTK theme"
+msgstr "تبديل سمة GTK"
+
+#: src/data/ui/ThemesPage.ui:31
+msgid ""
+"Forcing a dark theme on applications not designed to support it can have "
+"undesirable side-effects such as unreadable text or invisible icons."
+msgstr ""
+"قد يؤدي فرض سمة داكنة على التطبيقات غير المصممة لدعمها إلى آثار جانبية غير "
+"مرغوب فيها مثل النص غير المقروء أو الرموز غير المرئية."
+
+#: src/data/ui/ThemesPage.ui:35 src/data/ui/ThemesPage.ui:51
+#: src/data/ui/ThemesPage.ui:67 src/data/ui/ThemesPage.ui:83
+msgid "Day variant"
+msgstr "متغير النهار"
+
+#: src/data/ui/ThemesPage.ui:40 src/data/ui/ThemesPage.ui:56
+#: src/data/ui/ThemesPage.ui:72 src/data/ui/ThemesPage.ui:88
+msgid "Night variant"
+msgstr "متغير الليل"
+
+#: src/data/ui/ThemesPage.ui:47
+msgid "Switch Shell theme"
+msgstr "تبديل سمة الصَّدَفة"
+
+#: src/data/ui/ThemesPage.ui:63
+msgid "Switch icon theme"
+msgstr "تبديل أيقونة السمة"
+
+#: src/data/ui/ThemesPage.ui:79
+msgid "Switch cursor theme"
+msgstr "تبديل مؤشر السمة"
+
+#. Time separator (eg. 08:27)
+#: src/data/ui/TimeChooser.ui:23
+msgid ":"
+msgstr ":"
+
+#: src/modules/Timer.js:268
+msgid "Unknown Location"
+msgstr "موقع غير معروف"
+
+#: src/modules/Timer.js:269
+msgid "A manual schedule will be used to switch the dark mode."
+msgstr "سيتم استخدام جدول يدوي لتبديل الوضع المظلم."
+
+#: src/modules/Timer.js:274
+msgid "Edit Manual Schedule"
+msgstr "تعديل الجدولة اليدوية"
+
+#: src/modules/Timer.js:278
+msgid "Open Location Settings"
+msgstr "افتح إعدادات الموقع"
+
+#: src/preferences/BackgroundButton.js:86
+msgid "This image format is not supported."
+msgstr "تنسيق الصورة هذا غير مدعوم."
+
+#: src/preferences/ContributePage.js:16
+#, javascript-format
+msgid "Version %d"
+msgstr "%dالإصدار"
+
+#: src/preferences/ThemesPage.js:50
+msgid "Default"
+msgstr "الافتراضي"
+
+#~ msgid ""
+#~ "Only JPEG, PNG, TIFF, SVG and XML files can be set as background image."
+#~ msgstr "يمكن فقط تعيين ملفات JPEG و PNG و TIFF و SVG و XML كصورة خلفية."
+
+#~ msgid "Settings version"
+#~ msgstr "إصدار الإعدادات"
+
+#~ msgid "The current extension settings version"
+#~ msgstr "إصدار إعدادات الامتداد الحالي"
+
+#~ msgid "Enable GTK variants switching"
+#~ msgstr "تفعيل تبديل متغيرات GTK"
+
+#~ msgid "Day GTK theme"
+#~ msgstr "سمة GTK النهارية"
+
+#~ msgid "The GTK theme to use during daytime"
+#~ msgstr "سمة GTK للاستخدام أثناء النهار"
+
+#~ msgid "Night GTK theme"
+#~ msgstr "سمة GTK الليلية"
+
+#~ msgid "The GTK theme to use during nighttime"
+#~ msgstr "سمة GTK للاستخدام أثناء الليل"
+
+#~ msgid "Enable shell variants switching"
+#~ msgstr "تفعيل تبديل متغيرات الصَّدَفة"
+
+#~ msgid "Day shell theme"
+#~ msgstr "سمة الصّدَفة النهارية"
+
+#~ msgid "The shell theme to use during daytime"
+#~ msgstr "سمة الصّدَفة لاستخدامها خلال النهار"
+
+#~ msgid "Night shell theme"
+#~ msgstr "سمة الصّدَفة الليلية"
+
+#~ msgid "The shell theme to use during nighttime"
+#~ msgstr "سمة الصّدَفة التي سيتم استخدامها أثناء الليل"
+
+#~ msgid "Enable icon variants switching"
+#~ msgstr "تفعيل تبديل متغيرات الأيقونات"
+
+#~ msgid "Day icon theme"
+#~ msgstr "أيقونات السمة النهارية"
+
+#~ msgid "The icon theme to use during daytime"
+#~ msgstr "سمة الأيقونات المراد استخدامها أثناء النهار"
+
+#~ msgid "Night icon theme"
+#~ msgstr "أيقونات السمة الليلية"
+
+#~ msgid "The icon theme to use during nighttime"
+#~ msgstr "أيقونات السمة المستخدمة أثناء الليل"
+
+#~ msgid "Enable cursor variants switching"
+#~ msgstr "تفعيل تبديل متغيرات المؤشر"
+
+#~ msgid "Day cursor theme"
+#~ msgstr "مؤشر السمة النهارية"
+
+#~ msgid "The cursor theme to use during daytime"
+#~ msgstr "مؤشر السمة المستخدمة أثناء النهار"
+
+#~ msgid "Night cursor theme"
+#~ msgstr "مؤشر السمة الليلية"
+
+#~ msgid "The cursor theme to use during nighttime"
+#~ msgstr "مؤشر السمة المستخدمة أثناء الليل"
+
+#~ msgid "Enable commands"
+#~ msgstr "تمكين الأوامر"
+
+#~ msgid "Commands will be spawned on time change"
+#~ msgstr "سيتم إنتاج الأوامر عند تغيير الوقت"
+
+#~ msgid "Sunrise command"
+#~ msgstr "أمر شروق الشمس"
+
+#~ msgid "The command to spawn at sunrise"
+#~ msgstr "أمر الظهور عند شروق الشمس"
+
+#~ msgid "Sunset command"
+#~ msgstr "أمر الغروب"
+
+#~ msgid "The command to spawn at sunset"
+#~ msgstr "أمر الظهور عند غروب الشمس"
+
+#~ msgid "Path to the day background"
+#~ msgstr "مسار خلفية النهار"
+
+#~ msgid "Path to the night background"
+#~ msgstr "مسار خلفية الليل"
+
+#~ msgid "Time source"
+#~ msgstr "مصدر الوقت"
+
+#~ msgid "The source used to check current time"
+#~ msgstr "المصدر المستخدم للتحقق من الوقت الحالي"
+
+#~ msgid "Follow Night Light \"Disable until tomorrow\""
+#~ msgstr "اتبع الإضاءة الليلية \"تعطيل حتى الغد\""
+
+#~ msgid "Switch back to day time when Night Light is temporarily disabled"
+#~ msgstr "ارجع إلى وقت النهار عندما يتم تعطيل الإضاءة الليلية مؤقتًا"
+
+#~ msgid "Always enable the on-demand timer"
+#~ msgstr "قم دائمًا بتمكين المؤقت عند الطلب"
+
+#~ msgid "The on-demand timer will always be enabled alongside other timers"
+#~ msgstr ""
+#~ "سيتم دائمًا تمكين المؤقت عند الطلب جنبًا إلى جنب مع أجهزة ضبط الوقت الأخرى"
+
+#~ msgid "On-demand time"
+#~ msgstr "وقت الطلب"
+
+#~ msgid "The current time used in on-demand mode"
+#~ msgstr "الوقت الحالي المستخدم في وضع عند الطلب"
+
+#~ msgid "Key combination to toggle time"
+#~ msgstr "تركيبة المفاتيح لتبديل الوقت"
+
+#~ msgid "The key combination that will toggle time in on-demand mode"
+#~ msgstr "مجموعة المفاتيح التي ستبدل الوقت في وضع عند الطلب"
+
+#~ msgid "On-demand button placement"
+#~ msgstr "موضع زر عند الطلب"
+
+#~ msgid "Where the on-demand button will be placed"
+#~ msgstr "حيث سيتم وضع الزر عند الطلب"
+
+#~ msgid "Use manual time source"
+#~ msgstr "استخدم المصدر اليدوي للوقت"
+
+#~ msgid "Disable automatic time source detection"
+#~ msgstr "تعطيل الكشف التلقائي عن مصدر الوقت"
+
+#~ msgid "Sunrise time"
+#~ msgstr "وقت الشروق"
+
+#~ msgid "When the day starts"
+#~ msgstr "عندما يبدأ النهار"
+
+#~ msgid "Sunset time"
+#~ msgstr "وقت الغروب"
+
+#~ msgid "When the day ends"
+#~ msgstr "عندما ينتهي النهار"
+
+#~ msgid "Transition"
+#~ msgstr "انتقال"
+
+#~ msgid "Use a transition when changing the color scheme"
+#~ msgstr "استخدم انتقالًا عند تغيير نظام الألوان"
+
+#~ msgid "Manual time source"
+#~ msgstr "مصدر الوقت اليدوي"
+
+#~ msgid ""
+#~ "The extension will try to use Night Light or Location Services to "
+#~ "automatically set your current sunrise and sunset times if they are "
+#~ "enabled. If you prefer, you can manually choose a time source."
+#~ msgstr ""
+#~ "سيحاول الامتداد استخدام الإضاءة الليلية أو خدمات الموقع لضبط أوقات شروق "
+#~ "وغروب الشمس الحالية تلقائيًا إذا تم تمكينهما. إذا كنت تفضل ذلك، يمكنك "
+#~ "اختيار مصدر الوقت يدويًا."
+
+#~ msgid "Always show on-demand controls"
+#~ msgstr "اعرض دائمًا عناصر التحكم عند الطلب"
+
+#~ msgid "Allows you to override the current time when using a schedule."
+#~ msgstr "يتيح لك تجاوز الوقت الحالي عند استخدام جدولة."
+
+#~ msgid "Advanced"
+#~ msgstr "متقدم"
+
+#~ msgid "Smooth transition between day and night appearance."
+#~ msgstr "الانتقال السلس بين المظهر النهاري والليلي."
+
+#~ msgid "Night Light"
+#~ msgstr "الإضاءة الليلية"
+
+#~ msgid "These settings only apply when Night Light is the time source."
+#~ msgstr "تنطبق هذه الإعدادات فقط عندما يكون Night Light هو مصدر الوقت."
+
+#~ msgid "Follow <i>Disable until tomorrow</i>"
+#~ msgstr "اتبع <i> تعطيل حتى الغد </i>"
+
+#~ msgid ""
+#~ "When Night Light is temporarily disabled, the extension will switch to "
+#~ "day variants."
+#~ msgstr ""
+#~ "عندما يتم تعطيل الإضاءة الليلية مؤقتًا، سيتحول الامتداد إلى متغيرات النهار."
+
+#~ msgid ""
+#~ "These settings only apply when using the manual schedule as the time "
+#~ "source."
+#~ msgstr "تنطبق هذه الإعدادات فقط عند استخدام الجدول اليدوي كمصدر للوقت."
+
+#~ msgid "On-demand"
+#~ msgstr "عند الطلب"
+
+#~ msgid "These settings only apply when using the on-demand time source."
+#~ msgstr "تنطبق هذه الإعدادات فقط عند استخدام مصدر الوقت عند الطلب."
+
+#~ msgid "Turn Night Mode Off"
+#~ msgstr "قم بإيقاف تشغيل الوضع الليلي"
+
+#~ msgid "Turn Night Mode On"
+#~ msgstr "قم بتشغيل الوضع الليلي"
+
+#~ msgid "Night Mode Off"
+#~ msgstr "الوضع الليلي معطل"
+
+#~ msgid "Night Mode On"
+#~ msgstr "الوضع الليلي مفعّل"
+
+#~ msgid "Turn Off"
+#~ msgstr "الايقاف"
+
+#~ msgid "Turn On"
+#~ msgstr "شغل"
+
+#~ msgid "Location Services"
+#~ msgstr "خدمات الموقع"
+
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~ msgid "Top bar"
+#~ msgstr "الشريط العلوي"
+
+#~ msgid "System menu"
+#~ msgstr "قائمة النظام"
+
+#~ msgid "Switch GTK variants"
+#~ msgstr "تبديل متغيرات GTK"
+
+#~ msgid "Switch shell variants"
+#~ msgstr "تبديل متغيرات الصَّدَفة"
+
+#~ msgid "Switch icon variants"
+#~ msgstr "تبديل متغيرات الأيقونات"
+
+#~ msgid "Switch cursor variants"
+#~ msgstr "تبديل متغيرات المؤشر"
+
+#, fuzzy
+#~| msgid "Day GTK theme"
+#~ msgid "GTK theme"
+#~ msgstr "سمة GTK النهارية"
+
+#, fuzzy
+#~| msgid "Day shell theme"
+#~ msgid "Shell theme"
+#~ msgstr "سمة الصّدَفة النهارية"
+
+#, fuzzy
+#~| msgid "Day icon theme"
+#~ msgid "Icon theme"
+#~ msgstr "أيقونات السمة النهارية"
+
+#, fuzzy
+#~| msgid "Day cursor theme"
+#~ msgid "Cursor theme"
+#~ msgstr "مؤشر السمة النهارية"
+
+#~ msgid "Manual schedule times"
+#~ msgstr "أوقات الجدولة اليدوية"
+
+#~ msgid "Enable backgrounds"
+#~ msgstr "تمكين الخلفيات"
+
+#~ msgid "Background will be changed on time change"
+#~ msgstr "سيتم تغيير الخلفية عند تغيير الوقت"
+
+#, javascript-format
+#~ msgid ""
+#~ "Unable to automatically detect the day and night variants for the \"%s\" "
+#~ "GTK theme. Please manually choose them in the extension's preferences."
+#~ msgstr ""
+#~ "تعذر اكتشاف متغيرات النهار والليل تلقائيًا لسمة\"GTK \"%s. يرجى اختيارهم "
+#~ "يدويًا في تفضيلات الامتداد."
+
+#, javascript-format
+#~ msgid ""
+#~ "Unable to automatically detect the day and night variants for the \"%s\" "
+#~ "GNOME Shell theme. Please manually choose them in the extension's "
+#~ "preferences."
+#~ msgstr ""
+#~ "تعذر اكتشاف متغيرات النهار والليل تلقائيًا لسمة \"GNOME Shell \"%s. يرجى "
+#~ "اختيارهم يدويًا في تفضيلات الامتداد."
+
+#~ msgid "Switch to night theme"
+#~ msgstr "قم بالتبديل إلى السمة الليلية"
+
+#~ msgid "Switch to day theme"
+#~ msgstr "التبديل إلى السمة النهارية"
+
+#~ msgid "Use manual GTK variants"
+#~ msgstr "استخدم متغيرات GTK اليدوية"
+
+#~ msgid "Disable automatic GTK theme variants detection"
+#~ msgstr "تعطيل الكشف التلقائي عن متغيرات سمة GTK"
+
+#~ msgid "Use manual shell variants"
+#~ msgstr "استخدم بدائل الصّدَفة اليدوية"
+
+#~ msgid "Disable automatic shell theme variants detection"
+#~ msgstr "تعطيل الكشف التلقائي عن متغيرات سمة الصّدَفة"
+
+#~ msgid "Switch backgrounds"
+#~ msgstr "تبديل الخلفيات"
+
+#~ msgid "Switch cursor theme variants"
+#~ msgstr "تبديل متغيرات سمة المؤشر"
+
+#~ msgid "Manual variants"
+#~ msgstr "المتغيرات اليدوية"
+
+#~ msgid ""
+#~ "You can manually set variants if the extension cannot automatically "
+#~ "detect the day and night variants of your GTK theme. Please <a href="
+#~ "\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/"
+#~ "issues\">submit a request</a> to get your theme supported."
+#~ msgstr ""
+#~ "يمكنك تعيين المتغيرات يدويًا إذا كان الامتداد لا يكتشف تلقائيًا متغيرات "
+#~ "النهار والليل لسمة GTK الخاصة بك. الرجاء <a href=\"https://gitlab.com/"
+#~ "rmnvgr/nightthemeswitcher-gnome-shell-extension/-/issues\"> إرسال طلب </"
+#~ "a> لدعم سمتك."
+
+#~ msgid "Support us"
+#~ msgstr "ادعمنا"
+
+#~ msgid "View code on GitLab"
+#~ msgstr "اعرض الكود على GitLab"
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "ترجمة على Weblate"
+
+#~ msgid "Donate on Liberapay"
+#~ msgstr "تبرع على Liberapay"
+
+#~ msgid "Appearance"
+#~ msgstr "مظهر"
+
+#~ msgid ""
+#~ "You can manually set variants if the extension cannot automatically "
+#~ "detect the day and night variants of your GNOME Shell theme. Please <a "
+#~ "href=\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-"
+#~ "extension/-/issues\">submit a request</a> to get your theme supported."
+#~ msgstr ""
+#~ "يمكنك تعيين المتغيرات يدويًا إذا لم يتمكن الامتداد من الكشف تلقائيًا عن "
+#~ "متغيرات النهار والليل لسمة GNOME Shell. الرجاء <a href=\"https://gitlab."
+#~ "com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/issues\"> إرسال طلب "
+#~ "</a> لدعم سمتك."

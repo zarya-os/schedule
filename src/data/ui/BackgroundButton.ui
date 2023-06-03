@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<interface domain="nightthemeswitcher@romainvigier.fr">
+  <template class="BackgroundButton" parent="GtkButton">
+    <property name="tooltip-text" translatable="yes">Change background</property>
+    <signal name="clicked" handler="onClicked" swapped="no"/>
+    <style>
+      <class name="image-button"/>
+    </style>
+    <child>
+      <object class="GtkPicture" id="thumbnail">
+        <property name="can-shrink">False</property>
+        <property name="width-request" bind-source="BackgroundButton" bind-property="thumb-width" bind-flags="sync-create"/>
+        <property name="height-request" bind-source="BackgroundButton" bind-property="thumb-height" bind-flags="sync-create"/>
+      </object>
+    </child>
+  </template>
+  <object class="GtkFileChooserNative" id="filechooser">
+    <property name="modal">True</property>
+    <property name="action">open</property>
+    <property name="title" translatable="yes">Select your background image</property>
+    <property name="select-multiple">False</property>
+    <signal name="response" handler="onFileChooserResponse" swapped="no"/>
+  </object>
+</interface>

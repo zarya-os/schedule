@@ -1,0 +1,15 @@
+{
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension"
+	},
+	"license": "GPL-3.0-or-later",
+	"scripts": {
+		"test-lint": "eslint .",
+		"test": "npm run test-lint"
+	},
+	"devDependencies": {
+		"eslint": "^8.9.0",
+		"eslint-plugin-jsdoc": "^37.9.2"
+	}
+}
