@@ -3,27 +3,25 @@ SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
-# Night Theme Switcher <!-- omit in toc -->
+# schedule <!-- omit in toc -->
 
-![](./res/screenshot.gif)
+- fork of [@rmnvgr's](https://gitlab.com/rmnvgr) [`Night Theme Switcher`](https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension) for zarya's session
 
-Automatically toggle your desktop’s color scheme between light and dark, switch backgrounds and run custom commands at sunset and sunrise.
+## screenshots:
+| light | dark |
+| ![light-screenshot](./res/light-screenshot.png) | ![dark-screenshot](./res/dark-screenshot.png) |
+
+Automatically toggle your desktop’s color scheme between light and dark at sunset and sunrise.
 
 ---
 
 ## Table of contents <!-- omit in toc -->
 
-- [Graphical installation](#graphical-installation)
 - [Command line installation](#command-line-installation)
 - [Contributing](#contributing)
 - [Frequently asked questions](#frequently-asked-questions)
 
 ---
-
-## Graphical installation
-
-Visit [the extension page on extensions.gnome.org](https://extensions.gnome.org/extension/2236/night-theme-switcher/) and enable the extension.
-
 ## Command line installation
 
 You will need these tools:
@@ -36,7 +34,7 @@ You will need these tools:
 Clone the repository and enter the directory:
 
 ```bash
-git clone https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension.git && cd nightthemeswitcher-gnome-shell-extension
+git clone https://github.com./zarya-os/schedule.git && cd schedule
 ```
 
 Build and install using `meson`:
@@ -52,7 +50,7 @@ meson setup builddir --prefix=~/.local && meson install -C builddir
 Restart your GNOME session and enable the extension:
 
 ```bash
-gnome-extensions enable nightthemeswitcher@romainvigier.fr
+gnome-extensions enable schedule@zarya.com
 ```
 
 ## Contributing
@@ -78,7 +76,7 @@ As the issue is in Ubuntu, and because I don't have the energy nor the will to w
 There's a hidden setting to configure the offset (in hours) applied to the calculated sunrise and sunset times, you can change it with the `gsettings` command:
 
 ```
-gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.time offset $DESIRED_OFFSET
+gsettings --schemadir ~/.local/share/gnome-shell/extensions/schedule@zarya.com/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.time offset $DESIRED_OFFSET
 ```
 
 ### I have disabled Location services but want to use sunrise and sunset times from my location
@@ -86,5 +84,5 @@ gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@r
 If you know your coordinates, you can enter them in a hidden setting, and the extension will use them to calculate the sunrise and sunset times. You can set it with the `gsettings` command:
 
 ```
-gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.time location '($LATITUDE,$LONGITUDE)'
+gsettings --schemadir ~/.local/share/gnome-shell/extensions/schedule@zarya.com/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.time location '($LATITUDE,$LONGITUDE)'
 ```
