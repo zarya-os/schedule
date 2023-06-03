@@ -9,6 +9,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 ## screenshots:
 | light | dark |
+| ----- | ---- |
 | ![light-screenshot](./res/light-screenshot.png) | ![dark-screenshot](./res/dark-screenshot.png) |
 
 Automatically toggle your desktop’s color scheme between light and dark at sunset and sunrise.
