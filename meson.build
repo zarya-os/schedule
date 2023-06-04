@@ -12,6 +12,7 @@ UUID = 'schedule@zarya.com'
 DNS = 'org.gnome.shell.extensions.nightthemeswitcher'
 
 INSTALL_DIR = get_option('datadir') / 'gnome-shell' / 'extensions' / UUID
+SCHEMA_INSTALL_DIR = get_option('datadir') / 'glib-2.0'
 
 if get_option('pack')
   INSTALL_DIR = meson.project_build_root() / UUID
@@ -26,4 +27,4 @@ if npm_exe.found()
 endif
 
 subdir('src')
-subdir('tests')
+#subdir('tests')

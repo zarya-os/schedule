@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: schedule
+Source: https://github.com/zarya-os/schedule
+
+Files: *
+Copyright: 2023 Romain Vigier
+License: GPLv3

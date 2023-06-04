@@ -11,7 +11,7 @@ gnome.compile_resources(
 
 install_data(
   DNS + '.gschema.xml',
-  install_dir: INSTALL_DIR / 'schemas'
+  install_dir: SCHEMA_INSTALL_DIR / 'schemas'
 )
 
 if not get_option('pack')

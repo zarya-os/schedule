@@ -35,10 +35,10 @@ function init() {
 function fillPreferencesWindow(window) {
     const { SchedulePage } = Me.imports.preferences.SchedulePage;
 
-    [
-        new SchedulePage(),
-    ].forEach(page => window.add(page));
+    const page = new SchedulePage();
+    window.add(page);
 
     window.search_enabled = false;
-    window.set_default_size(386, 400);
+    window.set_default_size(400, 356);
 }
+
